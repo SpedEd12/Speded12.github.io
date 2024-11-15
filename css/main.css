@@ -19,3 +19,8 @@ p
   line-height: 1.6;
   margin: 1em 0;
 }
+img
+{
+  border: 2px;
+  padding: 5px;
+}
