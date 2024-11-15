@@ -3,3 +3,19 @@
   background-color: rgb(104, 84, 246);
   background-image: rgb(225, 223, 238);
 }
+h1
+{
+  font-size: 2em;
+  color: rgb(243, 197, 13);
+}
+nav
+{
+  width: 20vw;
+  background-color:rgb(243, 197, 13);
+  padding: 1em;
+}
+p
+{
+  line-height: 1.6;
+  margin: 1em 0;
+}
