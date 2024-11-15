@@ -1,10 +1,4 @@
-th
+:root
 {
-  border: 3px solid darkblue;
-  padding: 3px;
-}
-td 
-{
-  border:2px solid black;
-  padding: 3px;
+  background-color: gray;
 }
