@@ -7,6 +7,10 @@ h1
   font-size: 2em;
   color: rgb(243, 197, 13);
 }
+h2, h3, h4
+{
+  color: yellow;
+}
 nav
 {
   width: 20vw;
@@ -15,7 +19,7 @@ nav
 }
 body
 {
-  font-family: Times New Roman, Georgia;
+  font-family: 'Times New Roman', Times, serif;
 }
 p
 {
@@ -32,3 +36,4 @@ a
 {
   color: rgb(243, 197, 13);
 }
+
