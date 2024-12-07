@@ -1,0 +1,38 @@
+:root
+{
+  background-color: rgb(104, 84, 246);
+}
+h1
+{
+  font-size: 2em;
+  color: rgb(243, 197, 13);
+}
+h2, h3, h4
+{
+  color: yellow;
+}
+nav
+{
+  width: 20vw;
+  background-color:rgb(243, 197, 13);
+  padding: 1em;
+}
+body
+{
+  font-family: 'Times New Roman', Times, serif;
+}
+p
+{
+  line-height: 1.6;
+  margin: 1em 0;
+  color: white;
+}
+img
+{
+  border: 2px;
+  padding: 5px;
+}
+a
+{
+  color: rgb(243, 197, 13);
+}
