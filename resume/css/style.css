@@ -1,38 +1,47 @@
 :root
 {
-  background-color: rgb(104, 84, 246);
-}
-h1
-{
-  font-size: 2em;
-  color: rgb(243, 197, 13);
-}
-h2, h3, h4
-{
-  color: yellow;
-}
-nav
-{
-  width: 20vw;
-  background-color:rgb(243, 197, 13);
-  padding: 1em;
+  --UNC-Blue: #013c65;
+  --UNC-Gold: #f6b000;
+  --UNC-Gray: #8a8a8d;
 }
 body
 {
-  font-family: 'Times New Roman', Times, serif;
+    background-color: var(--UNC-Gray);
 }
-p
+*
 {
-  line-height: 1.6;
-  margin: 1em 0;
-  color: white;
+    color: var(--UNC-Blue);
+    text-align: center;
 }
-img
+h1
 {
-  border: 2px;
-  padding: 5px;
+    font-size: calc(16pt + 4vw);
 }
-a
+nav
 {
-  color: rgb(243, 197, 13);
+    border: 7px var(--UNC-Gold) solid;
+    margin: 8vw;
+    margin-top: 5px;
+}
+section
+{
+    border: 5px var(--UNC-Blue) solid;
+    margin: 18vw;
+    margin-top: 30px;
+}
+.date
+{
+    color: var(--UNC-Gold);
+    white-space: nowrap;
+}
+
+.date strong
+{
+    color: var(--UNC-Gold);
+    white-space: nowrap;
+}
+ul
+{
+    list-style: none;
+    padding-left: 0px;
 }
