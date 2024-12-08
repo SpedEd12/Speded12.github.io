@@ -1,16 +1,16 @@
 :root
 {
-  --Blue: #2674B6;
-  --Gray: #CECECE;
-  --Red: #550101;
+  --Black: #000000;
+  --Gray: #687F92;
+  --Blue: #076CC2;
 }
 body
 {
-    background-color: var(--Blue);
+    background-color: var(--Black);
 }
 *
 {
-    color: var(--Red);
+    color: var(--Blue);
     text-align: center;
 }
 h1
@@ -25,7 +25,7 @@ nav
 }
 section
 {
-    border: 5px var(--Red) solid;
+    border: 5px var(--Gray) solid;
     margin: 18vw;
     margin-top: 30px;
 }
